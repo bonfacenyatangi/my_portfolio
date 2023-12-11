@@ -1,13 +1,11 @@
-/* eslint-disable react/no-unescaped-entities */
-// eslint-disable-next-line no-unused-vars
 import React from "react";
-import BgImage from "../assets/images/a.jpg";
+// import BgImage from "../assets/images/a.jpg";
 const Main = () => {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1]"
-        src={BgImage}
+        // src={BgImage}
         alt=""
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
