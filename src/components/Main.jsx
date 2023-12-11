@@ -44,7 +44,7 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <div>
+          <div className="flex justify-between pt-6 max-w-[200px] w-full">
             <FaTwitter className="cursor-pointer" size={20} />
             <FaFacebookF className="cursor-pointer" size={20} />
             <FaInstagram className="cursor-pointer" size={20} />
