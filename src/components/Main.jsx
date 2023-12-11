@@ -16,7 +16,7 @@ const Main = () => {
         alt=""
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
-        <div>
+        <div className="">
           <h1> I'm Bonface Nyatangi </h1>
           <h2>
             I'm a
@@ -41,10 +41,10 @@ const Main = () => {
             />
           </h2>
           <div>
-            <FaTwitter />
-            <FaFacebookF />
-            <FaInstagram />
-            <FaLinkedinIn />
+            <FaTwitter className="cursor-pointer" size={20} />
+            <FaFacebookF className="cursor-pointer" size={20} />
+            <FaInstagram className="cursor-pointer" size={20} />
+            <FaLinkedinIn className="cursor-pointer" size={20} />
           </div>
         </div>
       </div>
