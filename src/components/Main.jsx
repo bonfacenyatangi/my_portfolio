@@ -20,7 +20,7 @@ const Main = () => {
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
             I'm Bonface Nyatangi
           </h1>
-          <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
+          <h2 className="flex sm:text-3xl text-2xl ml-2 pt-4 text-gray-800">
             I'm a
             <TypeAnimation
               sequence={[
