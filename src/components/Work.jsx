@@ -3,29 +3,29 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
-    year: "2023, September - Present ",
+    year: "2023",
     title: "Software Developer Intern",
-    duration: "3 months",
+    duration: "iTalanta - 3 months",
     details: "Working on open source projects",
   },
   {
-    year: "2022, January - Decemeber ",
+    year: "2022",
     title: "ICT Support Intern",
-    duration: "1 year",
+    duration: "KRA - 1 year",
     details:
       "Resolved 200+ user incidents and met 95% of SLAs annually. Deployed IT equipment for 30+ staff, improving productivity. Installed/updated 50+ software applications for organization-wide efficiency. Managed an inventory of 1500+ IT assets and tracked changes. Provided timely hardware/software maintenance to minimize downtime. Supported virtual meeting solutions for 500+ employees. Completed additional tasks assigned by supervisors to support the team and organization.",
   },
   {
-    year: "2021, July - Decemeber ",
+    year: "2021",
     title: "Cybercafé Attendant",
-    duration: "6 months",
+    duration: "Bjeva Cybercafé Solutions - 6 months",
     details: "Cybercafé Services at Bjeva Cybercafé Solutions",
   },
 ];
 const Work = () => {
   return (
     <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">Work</h1>
+      <h1 className="text-4xl font-bold text-center text-[#01890f]">Work</h1>
       {data.map((item, idx) => (
         <WorkItem
           key={idx}

@@ -20,18 +20,20 @@ const Main = () => {
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
             I'm Bonface Nyatangi
           </h1>
-          <h2 className="flex sm:text-3xl text-2xl ml-2 pt-4 text-gray-800">
-            I'm a
+          <h2 className="flex sm:text-3xl text-2xl ml-2 pt-4 text-[#01890f]">
+            I'm
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "Software Developer",
+                "a Software Developer",
                 2000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Tech Enthusiast",
+                "an IT Specialist",
                 2000,
-                "UI/UX Designer",
+                "a UI/UX Designer",
                 2000,
-                "Peasant Farmer",
+                "a Tech Enthusiast",
+                2000,
+                "a Peasant Farmer",
                 2000,
               ]}
               wrapper="span"
