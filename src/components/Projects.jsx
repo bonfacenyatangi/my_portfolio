@@ -17,7 +17,7 @@ const Projects = () => {
         officiis inventore!
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={projectImg1} title="Kisii Farmers App" />
+        <ProjectItem img={projectImg1} title="Tea Farmers App" />
         <ProjectItem img={projectImg2} title="Tusome App" />
         <ProjectItem img={projectImg3} title="Moringa Overflow App" />
         <ProjectItem img={projectImg4} title="Elewa App" />
