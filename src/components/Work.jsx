@@ -12,7 +12,9 @@ const data = [
     year: "2022, January - Decemeber ",
     title: "ICT Support Intern",
     duration: "1 year",
-    details: "Offering essential ICT Services for the Authority",
+    details: {
+      responsibilities: "Offering essential ICT Services for the Authority",
+    },
   },
   {
     year: "2021, July - Decemeber ",
