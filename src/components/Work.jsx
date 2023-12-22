@@ -6,7 +6,8 @@ const data = [
     year: "2023",
     title: "Software Developer Intern",
     duration: "iTalanta - 3 months",
-    details: "Working on open source projects",
+    details:
+      "Collaborative Contributions to Open-Source Projects. Utilizing Frameworks to Develop Custom Applications for Societal Needs.",
   },
   {
     year: "2022",
@@ -19,20 +20,24 @@ const data = [
     year: "2021",
     title: "Cybercafé Attendant",
     duration: "Bjeva Cybercafé Solutions - 6 months",
-    details: "Cybercafé Services at Bjeva Cybercafé Solutions",
+    details: "Attended Customers for Cybercafé Services. ",
   },
 ];
+
 const Work = () => {
   return (
     <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="text-4xl font-bold text-center text-[#01890f]">Work</h1>
+
       {data.map((item, idx) => (
         <WorkItem
           key={idx}
           year={item.year}
           title={item.title}
           duration={item.duration}
-          details={item.details}
+          details={item.details.split(". ").map((point, index) => (
+            <p key={index}>- {point}</p>
+          ))}
         />
       ))}
     </div>

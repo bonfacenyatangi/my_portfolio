@@ -10,9 +10,11 @@ import { GrProjects } from "react-icons/gr";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
+  // handling the navigation function
   const handleNav = () => {
     setNav(!nav);
   };
+  // A function that
   return (
     <div>
       <AiOutlineMenu
