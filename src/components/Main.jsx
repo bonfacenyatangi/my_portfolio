@@ -47,7 +47,7 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter className="cursor-pointer" size={20} />
+             <FaTwitter className="cursor-pointer" size={20} />
             <FaFacebookF className="cursor-pointer" size={20} />
             <FaInstagram className="cursor-pointer" size={20} />
             <FaLinkedinIn className="cursor-pointer" size={20} />
