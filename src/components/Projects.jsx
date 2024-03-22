@@ -12,15 +12,23 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-        laboriosam harum culpa. Nostrum labore eum velit id exercitationem
-        officiis inventore!
+        Dive into my collection of projects, where innovation meets code.
+        Discover a range of creations, some ready to explore on Git, while
+        others await their moment to shine after deployment.{" "}
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={projectImg1} title="Tea Farmers App" />
-        <ProjectItem img={projectImg2} title="Tusome App" />
-        <ProjectItem img={projectImg3} title="Moringa Overflow App" />
-        <ProjectItem img={projectImg4} title="Elewa App" />
+        <a href="https://github.com/bonfacenyatangi/farmerstea">
+          <ProjectItem img={projectImg1} title="Tea Farmers App" />
+        </a>
+        <a href="https://bonfacenyatangi.github.io/Tusome/">
+          <ProjectItem img={projectImg2} title="Tusome App" />
+        </a>
+        <a href="link-to-project3">
+          <ProjectItem img={projectImg3} title="Moringa Overflow App" />
+        </a>
+        <a href="link-to-project4">
+          <ProjectItem img={projectImg4} title="Elewa App" />
+        </a>
       </div>
     </div>
   );
