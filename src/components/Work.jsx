@@ -26,7 +26,7 @@ const data = [
   {
     year: "2021",
     title: "Cybercafé Attendant",
-    duration: "Bjeva Cybercafé Solutions - 6 months",
+    duration: "Bjeva Solutions Limited - 6 months",
     details:
       "Managed cyber cafe operations, ensuring customer satisfaction. Provided prompt technical support, maintaining high service standards. Implemented security measures for customer data and safe browsing. Increased customer base through effective marketing, improving profitability. Trained new employees, contributing to a skilled and efficient team. Maintained inventory and equipment for customer needs. Built positive customer relationships, resulting in repeat business and referrals ",
   },
